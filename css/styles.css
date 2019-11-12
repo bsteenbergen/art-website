@@ -1,0 +1,158 @@
+#nav{
+    text-align: center;
+    box-sizing: border-box;
+    border-top: 2px dotted #000000;
+    border-bottom: 2px dotted #000000;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 10px;
+}
+
+a:hover{
+    background-color: darkgray;
+}
+
+#nav li{
+    display: inline;
+}
+
+#head{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
+}
+
+#tag{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkslategray;
+}
+
+#profpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 10px;
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+
+p{
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bio::first-letter{
+    font-weight: bold;
+    color: darkslategrey;
+    font-size: 200%;
+}
+
+#foot{
+    text-align: center;
+}
+
+#contact{
+    text-align: center;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
+}
+
+input:focus{
+    border-color: darkgray;
+}
+
+input:hover{
+    background-color: darkred;
+}
+
+textarea:focus{
+    border-color: darkgray;
+}
+
+textarea:hover{
+    background-color: darkred;
+}
+
+.cont{
+    width: 50%;
+    padding: 20px;
+    background-color: lightgray;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#message{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#email{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#name{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#foot2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+i{
+    font-size: 30px;
+    padding: 5px;
+    color: darkslategray;
+}
+
+#txt{
+    box-sizing:content-box;
+    margin-bottom: 10px;
+}
+
+textarea{
+    vertical-align: middle;
+}
+
+#projecthead{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100%;
+}
+
+.row{
+    margin: auto;
+    overflow: auto;
+    width: 960px;
+}
+.column{
+    float: left;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
